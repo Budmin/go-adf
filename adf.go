@@ -15,7 +15,7 @@ type Adf struct {
 
 		RequestDate time.Time `xml:"requestdate"`
 
-		Vehicle  Vehicle   `xml:"vehicle"`
+		Vehicles []Vehicle   `xml:"vehicle"`
 		Customer Customer  `xml:"customer"`
 		Vendor   Vendor    `xml:"vendor"`
 		Provider *Provider `xml:"provider,omitempty"`
